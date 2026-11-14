@@ -1,0 +1,19 @@
+{
+  "slug": "rankavia-woocommerce",
+  "tag": "v0.1.0-preview.1",
+  "pluginVersion": "0.1.0",
+  "status": "development preview; not WordPress.org listed",
+  "sourceCommit": "85ce2ccc6addaa49545e6d5b8d33262c187bd1cb",
+  "packagingChanges": [
+    "Added GPL LICENSE",
+    "Added corresponding-source notice"
+  ],
+  "runtimeFiles": {
+    "LICENSE": "7a50ab8ca2c8ea67ad182d9ccda0797144ca8c485a74d37d69c42783cdf936a4",
+    "SOURCE.txt": "b15ad8f08c9bb952906156d4a8943057d7b04ef9ddf81c6ee2dbf2289b2048d0",
+    "rankavia-woocommerce.php": "faba1bbb99287a0ccf982b38bf53ecddcb43fd413a21bad9288d6ab4116f3130",
+    "readme.txt": "9d5c2cb39ab3beb23a2bde8bd7635673649651acb2cb7c2a203ca828f49650fd",
+    "src/Product_Module.php": "e1afd21d2728a5b5c811ceed91b6bb09e9792f9c229ae4f5a5254eacdbf744f4"
+  },
+  "artifactSha256": "20bfb6241685621a1ea5fa5c7b0dc1c9c39003621cd18502e454aa93a7a31e3f"
+}

@@ -1,0 +1,6 @@
+# Source and license
+
+Rankavia for WooCommerce is GPL-2.0-or-later; see LICENSE.
+
+All plugin code in this ZIP is editable PHP. There is no compiled JavaScript and no bundled dependency.
+The public source repository is https://github.com/bixisoft/rankavia-woocommerce/tree/v0.1.0-preview.1 .
