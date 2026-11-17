@@ -1,19 +1,30 @@
 {
-  "slug": "rankavia-woocommerce",
-  "tag": "v0.1.0-preview.1",
-  "pluginVersion": "0.1.0",
-  "status": "development preview; not WordPress.org listed",
-  "sourceCommit": "85ce2ccc6addaa49545e6d5b8d33262c187bd1cb",
-  "packagingChanges": [
-    "Added GPL LICENSE",
-    "Added corresponding-source notice"
-  ],
-  "runtimeFiles": {
-    "LICENSE": "7a50ab8ca2c8ea67ad182d9ccda0797144ca8c485a74d37d69c42783cdf936a4",
-    "SOURCE.txt": "b15ad8f08c9bb952906156d4a8943057d7b04ef9ddf81c6ee2dbf2289b2048d0",
-    "rankavia-woocommerce.php": "faba1bbb99287a0ccf982b38bf53ecddcb43fd413a21bad9288d6ab4116f3130",
-    "readme.txt": "9d5c2cb39ab3beb23a2bde8bd7635673649651acb2cb7c2a203ca828f49650fd",
-    "src/Product_Module.php": "e1afd21d2728a5b5c811ceed91b6bb09e9792f9c229ae4f5a5254eacdbf744f4"
-  },
-  "artifactSha256": "20bfb6241685621a1ea5fa5c7b0dc1c9c39003621cd18502e454aa93a7a31e3f"
+    "slug": "rankavia-woocommerce",
+    "tag": "v0.2.0-preview.1",
+    "pluginVersion": "0.2.0",
+    "status": "development preview; not WordPress.org listed",
+    "sourceCommit": "5f17dacf248a128f31166e8e63c21fea987d6059",
+    "packagingChanges": [
+        "Added GPL LICENSE",
+        "Added corresponding-source notice"
+    ],
+    "runtimeFiles": {
+        "LICENSE": "7a50ab8ca2c8ea67ad182d9ccda0797144ca8c485a74d37d69c42783cdf936a4",
+        "SOURCE.txt": "c594f07d3e51cd7b8163b34a1230a62d62db9933c724f1abd555cfbddd6b4253",
+        "rankavia-woocommerce.php": "94cde073d01518f0d0765126259815e86f94e42f2e26712a6bffc35698754b11",
+        "readme.txt": "8719e25728bb82b8c7f3cfc3b06772be04695743c3a5dcc71cbaffb9bc03159b",
+        "src/Image_Alt_Check.php": "1a51611e08056d962b3dc21daaed6ef71683e1a6b8cad97a0a8a28e7ace7b3a9",
+        "src/Index_Policy_Check.php": "3e23fda74d91f46ec2b1d7ee75077efbbdcd684532876e2ffa91956b30f2fd5f",
+        "src/Metadata_Output.php": "c68fd554dff9afe261fc433cf4face326ffa2766f7c558f77b59dfe4ad345d1d",
+        "src/Metadata_Page.php": "a395b39d5bb86373a5ca57eea7b6673b09a735baa0c8fae14078203265f2efd7",
+        "src/Metadata_Store.php": "e12fcaa90555ba1e4080a0517b35ba4d7edb7891dbb53b8ecc8582fe6cd6d288",
+        "src/Product_Faq.php": "cc1bf621a4f873105d84fecc0ab25675d2959e611f9571aa7732a0d35b858d14",
+        "src/Product_Graph_Check.php": "4a372d199508e1c3816c68ff5be9828cd6f52f68f2bdbef7f5ba5621f5a24a5b",
+        "src/Product_Module.php": "a87c415626237bd765f540ce55a409472f8588717f045e11fad8c39860bf0a63",
+        "src/Seo_Owner.php": "6acb5bd8fdb93979d69ab47d01b4b6d54051bcf67b2cf875197c1ff037a2b62c",
+        "src/Sitemap_Check.php": "25b33a63c577f685e98931ceae74f5a18cf80c73bb84bf0a271f61cad741ce7a",
+        "src/Sitemap_Policy.php": "b1625f1b9bda3f46e4d1e9307e84a677b7555df2d07ce9988ef62832b7591745",
+        "uninstall.php": "6a01d765208795ba117550ab9bd90964887d2cd106b801e01709db169687d075"
+    },
+    "artifactSha256": "e793358e2b3e883792bef4b447cf2c686333247e608db790c5c193f0549950eb"
 }

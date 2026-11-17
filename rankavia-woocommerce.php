@@ -2,8 +2,8 @@
 /**
  * Plugin Name:          Rankavia for WooCommerce
  * Plugin URI:           https://rankavia.com/products/rankavia-woocommerce/
- * Description:          Optional, merchant-authored product brand and GTIN additions to WooCommerce structured data.
- * Version:              0.1.0
+ * Description:          Product and category SEO titles and descriptions with undo, plus optional brand and GTIN additions to WooCommerce structured data.
+ * Version:              0.2.0
  * Requires at least:    6.5
  * Requires PHP:         7.4
  * Author:               Bixisoft
@@ -41,5 +41,17 @@ add_action(
 			return;
 		}
 		( new \Bixisoft\RankaviaWooCommerce\Product_Module() )->boot();
+
+		$store = new \Bixisoft\RankaviaWooCommerce\Metadata_Store();
+		$owner = \Bixisoft\RankaviaWooCommerce\Seo_Owner::detect();
+		( new \Bixisoft\RankaviaWooCommerce\Product_Faq( $owner ) )->boot();
+		$policy = new \Bixisoft\RankaviaWooCommerce\Sitemap_Policy( $owner );
+		$policy->boot();
+		if ( \Bixisoft\RankaviaWooCommerce\Seo_Owner::SELF === $owner->kind() ) {
+			( new \Bixisoft\RankaviaWooCommerce\Metadata_Output( $store ) )->boot();
+		}
+		if ( is_admin() ) {
+			( new \Bixisoft\RankaviaWooCommerce\Metadata_Page( $store, $owner, new \Bixisoft\RankaviaWooCommerce\Product_Graph_Check(), new \Bixisoft\RankaviaWooCommerce\Index_Policy_Check( $owner ), new \Bixisoft\RankaviaWooCommerce\Image_Alt_Check(), new \Bixisoft\RankaviaWooCommerce\Sitemap_Check( $owner ), $policy ) )->boot();
+		}
 	}
 );
